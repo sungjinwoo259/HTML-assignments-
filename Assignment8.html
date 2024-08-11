@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment8</title>
+    <style>
+      body {
+        margin: 20px;
+        padding: 20px;
+        font-size: 18px;
+        font-family: Arial, sans-serif;
+      }
+      label {
+        display: block;
+        margin-top: 10px;
+      }
+      input[type="text"], select {
+        padding: 8px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 100%;
+        box-sizing: border-box;
+      }
+      input[type="radio"] {
+        margin-right: 5px;
+      }
+      button {
+        background-color: #333;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+      button:hover {
+        background-color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <label for="Username">Enter Username:</label>
+    <input type="text" id="Username" placeholder="UserName" /><br />
+
+    <label>Select your Gender:</label>
+    <input type="radio" id="Male" name="Gender" />
+    <label for="Male">Male</label>
+    <input type="radio" id="Female" name="Gender" />
+    <label for="Female">Female</label>
+    <input type="radio" id="Others" name="Gender" />
+    <label for="Others">Other</label><br />
+
+    <label for="Country">Choose your Country:</label>
+    <select name="Country" id="Country">
+      <option value="India">India</option>
+      <option value="USA">USA</option>
+      <option value="Dubai">Dubai</option>
+      <option value="Russia">Russia</option>
+      <option value="Thailand">Thailand</option>
+      <option value="Greenland">Greenland</option>
+      <option value="Germany">Germany</option>
+      <option value="Australia">Australia</option>
+      <option value="Japan">Japan</option>
+      <option value="South Korea">South Korea</option>
+    </select><br />
+
+    <button type="submit">Submit</button>
+  </body>
+</html>
